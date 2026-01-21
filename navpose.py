@@ -36,7 +36,7 @@ def main():
     # Wait for Nav2
     navigator.waitUntilNav2Active()
 
-    # Set goal pose to the gas source position in the map frame
+    
     goal_pose = navigator.getPoseStamped([2.0, 2.0], TurtleBot4Directions.EAST)
 
     # Undock
