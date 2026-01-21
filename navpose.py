@@ -42,7 +42,7 @@ def main():
     # Undock
     navigator.undock()
 
-    # Navigate to the gas source
+    
     navigator.startToPose(goal_pose)
 
     rclpy.shutdown()
